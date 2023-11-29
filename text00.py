@@ -16,7 +16,7 @@ response = client.chat.completions.create(
   messages=[
     {
       "role": "user",
-      "content": "I'm the VP of Finance Transformation at a major telecommunications provider. Help me define the use case for \"Forecasting, trend and scenario analysis of Device Upgrades\" where AI can drive process efficiency and insights. Describe to me the key problem, stakeholders, specific business challenges, and AI capabilities needed to drive the transformation"
+      "content": "I'm the VP of Finance Transformation at a major telecommunications provider. Help me define the use case for \"Supplier Performance and Supplier Risk Management\" where AI can drive process efficiency and insights. Describe to me the key problem, stakeholders, specific business challenges, business value and KPIs imacted, and AI capabilities needed to drive the transformation"
     }
   ],
   temperature=0.9,
