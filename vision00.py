@@ -17,11 +17,11 @@ response = client.chat.completions.create(
     {
       "role": "user",
       "content": [
-        {"type": "text", "text": "What is happening in this image?"},
+        {"type": "text", "text": "What is happening in this image? Is this an animated Gif? If yes, can you tell me what is going on with the animation?"},
         {
           "type": "image_url",
           "image_url": {
-            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-q64uKF5xW1LAzzHwtRIZv9NBGBo0zGOJfw&usqp=CAU",
+            "url": "https://cdn.dribbble.com/users/1525393/screenshots/15227792/media/403b6662b658a44a82dd3554f4e63b83.gif",
           },
         },
       ],
